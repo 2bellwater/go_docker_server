@@ -5,7 +5,7 @@ git clone https://github.com/mekingme/go_docker_server.git
 
 cd go_docker_server
 
-./go-docker
+./go_docker_server
 
 
 
