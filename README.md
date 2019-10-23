@@ -9,7 +9,7 @@ $ docker run --name jongsoo-redis -d -p 6379:6379 redis
 $ docker run --name js-mysql -e MYSQL_ROOT_PASSWORD=jspassword -d -p 3306:3306  mysql
 ### 4. create default database
 $ docker exec -it js-mysql mysql -u root -p  
-Enter password: jspassword . 
+Enter password: jspassword     
 mysql> create database jsdatabase;  
 mysql> use jsdatabase;  
 mysql> create table jstable( uuid int not null auto_increment, userid varchar(30), userpw varchar(30), studytime int, primary key(uuid) );  
